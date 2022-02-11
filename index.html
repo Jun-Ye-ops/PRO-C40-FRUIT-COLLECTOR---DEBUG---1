@@ -1,0 +1,36 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <script src="js/form.js"></script>
+<!--Link game.js and player.js-->
+<script src="js/game.js"></script>
+<script src="js/player.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+<!--Add database config here below-->
+<script>
+  const firebaseConfig = {
+  apiKey: "AIzaSyCCOjN47Lg6i6jjNr3N11BMMclmIzZT1p8",
+  authDomain: "car-0o0-7a385.firebaseapp.com",
+  databaseURL: "https://car-0o0-7a385-default-rtdb.firebaseio.com",
+  projectId: "car-0o0-7a385",
+  storageBucket: "car-0o0-7a385.appspot.com",
+  messagingSenderId: "658622817362",
+  appId: "1:658622817362:web:4d63cfcabd18882e3c2b8b"
+};
+firebase.initializeApp(firebaseConfig)
+</script>
+
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+
+
+
+</body></html>
